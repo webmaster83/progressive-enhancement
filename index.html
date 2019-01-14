@@ -6,14 +6,17 @@
 <style type="text/css">
 body {
 	background-image: linear-gradient(to right bottom, #7589a6, #75a8bb, #86c5c3, #afdfc3, #e7f5c6);
+	/*background:url(leBien-Mal.jpg) no-repeat bottom right;*/ 
+	/*background-size: cover;*/
 	text-align: center;
 	width: 90%;
 	margin: 0 auto;
 	font-size: 15px;
 	line-height: 2;
 }
+
 ul li {
-	list-style: square;
+	list-style: upper-roman;
 }
 table {
 	border: 2px solid #AB6711;
@@ -29,53 +32,70 @@ td {
 	font-size: 24px;
 	border: 3px dashed #AB6711;
 	padding: 80px 30px;
+	font-style: italic;
 }
+	.bleucls{
+		border-left-color: blue;border-left-style: solid;
+	}
+	.vertcls {
+		border-left-color:#9ECD60;border-left-style: solid;
+	}
+	.lebien {
+		color: green;
+		text-transform: capitalize;
+	}
+	.lemal {
+		color: red;
+		text-transform: capitalize;
+	}
+	 tr:nth-child(even){background-color: #f2f2f2;}/* style table w3school*/
+
 </style>
 </head>
 
 <body>
 <header>
-  <h1>Est-ce un <strong>bien</strong>? Est-ce un <strong>mal</strong>? Je ne sais pas.</h1>
+  <h1>Est-ce un <strong class="lebien">bien</strong>? Est-ce un <strong class="lemal">mal</strong>? <em style="background-color: yellow;">Je ne sais pas.</em></h1>
   <em>11 mai 2016, Alexandre Gorius</em><br>
-  <p>Dans la nature, <strong class="bien">Bien</strong> & <strong>mal</strong> n’existent pas. L'Univers lui-même n'est ni bon ni mauvais, mais un potentiel en développement permanent.</p>
+  <p>Dans la nature, <strong class="bien">Bien</strong> & <strong class="lemal">mal</strong> n’existent pas. L'Univers lui-même n'est ni bon ni mauvais, mais un potentiel en développement permanent.</p>
 </header>
 <ul>
   <h2>Dans la vie, il y a 4 types de personnes.</h2>
-  <li> les gens qui pensent qu'Internet c'est <strong>bien</strong>,</li>
-  <li> les gens qui pensent qu'Internet c'est le <strong>mal</strong>,</li>
+  <li> les gens qui pensent qu'Internet c'est <strong class="lebien">bien</strong>,</li>
+  <li> les gens qui pensent qu'Internet c'est le <strong class="lemal">mal</strong>,</li>
   <li> les gens qui pensent qu'Internet ce sont des chats,</li>
   <li> les gens qui n'y pensent pas.</li>
 </ul>
 <img src="https://cdn-images-1.medium.com/max/1000/1*2PCmLZyzQaF2pyKYkSTFpA.jpeg" alt="medium" >
 <p>Du point de vue de ce rocher sur Mars, rien ne se soucie de vos problèmes. Là haut, ça n’a pas d’importance, il n'y a aucun <em>"problème"</em>, tout est comme cela doit être.</p>
-<p>Ici bas, la seule réalité qui soit est celle de notre conscience. Rien n’existe si la conscience ne le pense pas. Rien n’existe non plus si nos sens ne transmettent pas le message. Cela signifie que si nous sentons <strong>mal</strong> quelque chose, notre réalité change. C’est chose possible car notre perception est limitée: on ne peut pas voir à 360 degrés par exemple. Si nous pensons nos sensations d’une manière ou d’une autre, alors notre réalité change aussi en fonction de la manière. Ainsi, si nous pouvons autant changer notre réalité, alors rien n’est tangible.</p>
+<p>Ici bas, la seule réalité qui soit est celle de notre conscience. Rien n’existe si la conscience ne le pense pas. Rien n’existe non plus si nos sens ne transmettent pas le message. Cela signifie que si nous sentons <strong class="lebien">mal</strong> quelque chose, notre réalité change. C’est chose possible car notre perception est limitée: on ne peut pas voir à 360 degrés par exemple. Si nous pensons nos sensations d’une manière ou d’une autre, alors notre réalité change aussi en fonction de la manière. Ainsi, si nous pouvons autant changer notre réalité, alors rien n’est tangible.</p>
 <p>Il y a des preuves à cela. Tombez amoureux de quelqu’un et vous aurez une vision quasi divine de cette personne. Sortez de son emprise, cette personne se révèle différente. Pourtant elle n’a pas changé, seulement vous avez changé d’état d’esprit. Tout fonctionne de cette manière : ce n’est pas seulement que vous pouvez activement façonner votre monde de cette manière, c’est que vous le faites passivement, quoi qu’il arrive.</p>
 <img src="http://static2.businessinsider.com/image/52fe8230eab8ea4275063b89/nasa-has-determined-where-the-mysterious-jelly-doughnut-rock-on-mars-came-from.jpg"  alt="qu'en pense-t-il?" >
-<p>Le rocher sur Mars ne fait pas la différence entre <strong>bien</strong> et <strong>mal</strong>, car pour lui, ni l’un ni l’autre n’existent.</p>
-<p>Tout est relatif à un point de vue. Ainsi, il n’existe pas de <strong>bien</strong> ni de <strong>mal</strong>, car <strong>bien</strong> et <strong>mal</strong> sont des valeurs absolues. Si quelque chose est bon d’après quelqu’un et <strong>mal</strong> d’après quelqu’un d’autre, alors cette chose n’est en elle-même ni bonne, ni <strong>mal</strong>. Rappelez-vous : d’après ce rocher sur Mars, il n’y a pas de séparation entre <strong>bien</strong> et <strong>mal</strong>, les deux n’existent jute pas.</p>
+<p>Le rocher sur Mars ne fait pas la différence entre <strong class="lebien">bien</strong> et <strong class="lemal">mal</strong>, car pour lui, ni l’un ni l’autre n’existent.</p>
+<p>Tout est relatif à un point de vue. Ainsi, il n’existe pas de <strong class="lebien">bien</strong> ni de <strong class="lemal">mal</strong>, car <strong class="lebien">bien</strong> et <strong class="lemal">mal</strong> sont des valeurs absolues. Si quelque chose est bon d’après quelqu’un et <strong class="lemal">mal</strong> d’après quelqu’un d’autre, alors cette chose n’est en elle-même ni bonne, ni <strong class="lemal">mal</strong>. Rappelez-vous : d’après ce rocher sur Mars, il n’y a pas de séparation entre <strong class="lebien">bien</strong> et <strong class="lemal">mal</strong>, les deux n’existent juste pas.</p>
 <img src="https://cdn-images-1.medium.com/max/800/1*IQqkmPXYZuJViY5p-ymk0A.jpeg"  alt="Le vieux fermier chinois" ><br>
-<h3><q cite="https://cdn-images-1.medium.com/max/800/1*IQqkmPXYZuJViY5p-ymk0A.jpeg" alt="Le vieux fermier chinois">Est-ce un <strong>bien</strong>? Est-ce un <strong>mal</strong>? Je ne sais pas.</q></h3>
+<h3><q cite="https://cdn-images-1.medium.com/max/800/1*IQqkmPXYZuJViY5p-ymk0A.jpeg" alt="Le vieux fermier chinois">Est-ce un <strong class="lebien">bien</strong>? Est-ce un <strong class="lemal">mal</strong>? Je ne sais pas.</q></h3>
 <p>Une histoire chinoise célèbre illustre parfaitement ce propos.</p>
 <p>C’est l’histoire d’un fermier qui possède un cheval. Un jour, le cheval s’enfuit. Les villageois s’ameutent à la maison du fermier pour lui remonter le moral.</p>
 <blockquote>
-  <p class="citation">“Quelle malchance ! Ton seul cheval ! Nous sommes vraiment désolé pour cette perte, c’est si triste !”</p>
+  <p class="citation bleucls" >“Quelle malchance ! Ton seul cheval ! Nous sommes vraiment désolé pour cette perte, c’est si triste !”</p>
   <p> Le fermier répond,
-  <p class="citation">“Est-ce un <strong>bien</strong>? Est-ce un <strong>mal</strong>? Je ne sais pas.”.</p>
+  <p class="citation vertcls" >“Est-ce un <strong class="lebien">bien</strong>? Est-ce un <strong class="lemal">mal</strong>? Je ne sais pas.”.</p>
   </p>
   <p> Le jour suivant, le cheval revient avec sept magnifiques juments. Les villageois reviennent pour célébrer la bonne nouvelle.</p>
-  <p class="citation">“Quelle chance incroyable ! Avec huit chevaux, tu es un homme riche ! Tu dois être ravis de cette nouvelle !”</p>
+  <p class="citation bleucls">“Quelle chance incroyable ! Avec huit chevaux, tu es un homme riche ! Tu dois être ravis de cette nouvelle !”</p>
   <p> Le fermier répond,
-  <p class="citation">“Est-ce un <strong>bien</strong>? Est-ce un <strong>mal</strong>? Je ne sais pas.”.</p>
+  <p class="citation vertcls">“Est-ce un <strong class="lebien">bien</strong>? Est-ce un <strong class="lemal">mal</strong>? Je ne sais pas.”.</p>
   </p>
   <p> Le jour d’après, le fils du fermier s’occupe de l’entraînement des nouveaux chevaux. Mais l’un d’entre eux s’est révélé agressif; le garçon tombe et se casse la jambe. Les villageois reviennent.</p>
-  <p class="citation">“Pauvre enfant ! Nous sommes si désolé pour ce qui est arrivé ! Nous espérons qu’il s’en remettra bientôt, c’est tellement dommage…”</p>
+  <p class="citation bleucls">“Pauvre enfant ! Nous sommes si désolé pour ce qui est arrivé ! Nous espérons qu’il s’en remettra bientôt, c’est tellement dommage…”</p>
   <p>Le fermier répond,
-  <p class="citation">“Est-ce un <strong>bien</strong>? Est-ce un <strong>mal</strong>? Je ne sais pas.”</p>
+  <p class="citation vertcls">“Est-ce un <strong class="lebien">bien</strong>? Est-ce un <strong class="lemal">mal</strong>? Je ne sais pas.”</p>
   </p>
   <p>Le quatrième jour, l’armée arrive au village à la recherche de nouvelles jeunes recrues. Grâce à sa jambe cassée, le fils du fermier échappe au recrutement.</p>
-  <p class="citation"> “Quelle nouvelle incroyable ! Ton fils échappera à cette guerre sanglante, il vivra, à tes côtés ! Tu dois être tellement heureux, c’est fantastique !”</p>
-  <p> Quand <strong>bien</strong> même, le fermier répond,
-  <p class="citation">“Est-ce un <strong>bien</strong>? Est-ce un <strong>mal</strong>? Je ne sais pas.”</p>
+  <p class="citation bleucls"> “Quelle nouvelle incroyable ! Ton fils échappera à cette guerre sanglante, il vivra, à tes côtés ! Tu dois être tellement heureux, c’est fantastique !”</p>
+  <p> Quand <strong class="lebien">bien</strong> même, le fermier répond,
+  <p class="citation vertcls">“Est-ce un <strong class="lebien">bien</strong>? Est-ce un <strong class="lemal">mal</strong>? Je ne sais pas.”</p>
   </p>
 </blockquote>
 <p> En résumé, représentons ce dialogue sous forme de tableau</p>
@@ -105,7 +125,7 @@ td {
 </table>
 <em>Tableau représentant la philosophie du fermier.</em>
 <p>Conclusion <br>
-  Le Bien et le Mal sont des valeurs culturelles et non naturelles. La banane est bonne pour le singe, le singe n'est pas bon pour la banane. N'en faisons donc pas un fromage...</p>
+  Le <strong class="lebien">Bien</strong> et le <strong class="lemal">Mal </strong>sont des valeurs culturelles et non naturelles. La banane est bonne pour le singe, le singe n'est pas bon pour la banane. N'en faisons donc pas un fromage...</p>
 <hr>
 <footer>
   <p><em>Copyright Just Another Company 2017. Tous droits réservés. Très largement adapté de cet article:</em> <a href="https://medium.com/scribe/il-ny-a-rien-de-bien-ni-de-mal-3d46a2d2e263" target="_blank">lien</a></p>

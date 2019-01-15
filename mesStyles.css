@@ -7,8 +7,6 @@ body {
 	/*background-position: top right;*/	
 	text-align: center;
 	width: 90%;
-	margin: 0 auto;
-	font-size: 15px;
 	line-height: 2;
 	border: 1px solid black;
 	margin: 10px auto;
@@ -16,6 +14,9 @@ body {
 	font-family: 'EB Garamond', serif;
 	font-size: 20px;
 }
+.imagespecial { width: 50%; margin: 10px;}
+.imagechinoi { width: 80%;}
+table{  width:50% ; border:0; margin: 0 auto;}
 	h1, h2, h3, q {font-family: 'Caveat', cursive;}
 ul li {
 	list-style: upper-roman;

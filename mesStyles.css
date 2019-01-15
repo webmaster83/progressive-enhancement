@@ -16,13 +16,13 @@ body {
 }
 .imagespecial { width: 50%; margin: 10px;}
 .imagechinoi { width: 80%;}
-table{  width:50% ; border:0; margin: 0 auto;}
+
 	h1, h2, h3, q {font-family: 'Caveat', cursive;}
 ul li {
 	list-style: upper-roman;
 }
 table {
-	border: 2px solid #AB6711;
+	border: 2px solid #AB6711; width:50% ; margin: 0 auto;
 }
 td {
 	/*border-bottom: 1px solid;*/

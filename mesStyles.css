@@ -1,0 +1,64 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	background: url(leBien-Mal.png) no-repeat , linear-gradient(to right bottom, #7589a6, #75a8bb, #86c5c3, #afdfc3, #e7f5c6);
+	/*background:url(leBien-Mal.jpg) no-repeat bottom right;*/ 
+	background-size:contain;
+	/*background-position: top right;*/	
+	text-align: center;
+	width: 90%;
+	margin: 0 auto;
+	font-size: 15px;
+	line-height: 2;
+	border: 1px solid black;
+	margin: 10px auto;
+	padding: 10px;
+	font-family: 'EB Garamond', serif;
+	font-size: 20px;
+}
+	h1, h2, h3, q {font-family: 'Caveat', cursive;}
+ul li {
+	list-style: upper-roman;
+}
+table {
+	border: 2px solid #AB6711;
+}
+td {
+	/*border-bottom: 1px solid;*/
+	padding: 0px;
+}
+.citation {
+	width: 50%;
+	margin: 0 auto;
+	background-color: #ccc;
+	font-size: 24px;
+	border: 3px dashed #AB6711;
+	padding: 80px 30px;
+	font-style: italic;
+}
+	.bleucls{
+		border-left-color: blue;border-left-style: solid;
+	}
+	.vertcls {
+		border-left-color:#9ECD60;border-left-style: solid;
+	}
+	.lebien {
+		color: green;
+		text-transform: capitalize;
+	}
+	.lemal {
+		color: red;
+		text-transform: capitalize;
+	}
+	 tr:nth-child(even){background-color: #f2f2f2;}/* style table w3school*/
+	.notification {
+		  background:#FFFFDD;
+  padding:.5rem 1rem;
+  border:3px solid #DDDDCC;
+  width:250px;
+  font-weight:bold;
+  color: #333300;
+	}
+	header, ul  { color: white;
+	}
+

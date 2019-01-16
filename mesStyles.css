@@ -2,9 +2,7 @@
 /* CSS Document */
 body {
 	background: url(leBien-Mal.png) no-repeat , linear-gradient(to right bottom, #7589a6, #75a8bb, #86c5c3, #afdfc3, #e7f5c6);
-	/*background:url(leBien-Mal.jpg) no-repeat bottom right;*/ 
 	background-size:contain;
-	/*background-position: top right;*/	
 	text-align: center;
 	width: 90%;
 	line-height: 2;

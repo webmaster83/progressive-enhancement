@@ -1,0 +1,17 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	font-family: Helvetica, sans-serif;
+	text-align: center;
+	letter-spacing: 3px;
+	margin: 0px; 
+	padding: 0px;
+	line-height: 1.8;
+}
+	header { background-color: #2a4a71;padding: 20px; color: white;}
+	header a { color: #39CBDD;}
+	#contenu { width: 60%; margin: 0 auto;}
+	img { border-left: 3px solid black;margin: 0 auto;}
+	.gris { color: #565656;}
+	.grandelettre { font-size: 70px;}

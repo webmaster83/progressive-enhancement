@@ -6,9 +6,10 @@ body {
 	border: 1px solid black;
 	border-radius: 10px;
 	padding: 10px;
-}
-
-img {
-	border: 2px solid black;
 	text-align: center;
+}
+footer { text-align: left;}
+img {border: 2px solid black;}
+ p{	
+	text-align: left;
 }

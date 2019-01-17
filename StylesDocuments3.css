@@ -1,0 +1,14 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	width: 70%;
+	margin: 10px auto;
+	border: 1px solid black;
+	border-radius: 10px;
+	padding: 10px;
+}
+
+img {
+	border: 2px solid black;
+	text-align: center;
+}
